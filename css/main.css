@@ -147,9 +147,15 @@ body {
 
 .navbar li {
     font-family: "Great Vibes";
-    font-size: 1.8em;
+    font-size: 1.6em;
     padding: 0.2em;
 }
+
+ul li:nth-child(5){
+    display: none;
+}
+
+/* Hide the Registry on mobile b/c modal window looks terrible */
 
 
 /* ==========================================================================
