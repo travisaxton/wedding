@@ -108,7 +108,7 @@ textarea {
 
 body {
     background-image: url(hero.JPG);
-    background-position: center center;
+    background-position: 45% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -124,33 +124,57 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    padding-top: 0.5em;
+    padding-left: 0;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .navbar a {
     text-decoration: none;
-    color: whitesmoke;
+    color: lightgray;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+    color: white;
+}
+
+.navbar a:active,
+.navbar a.highlight {
+    color: white;
 }
 
 .navbar li {
     font-family: "Great Vibes";
-    font-size: 1.5em;
+    font-size: 1.8em;
+    padding: 0.2em;
 }
+
 
 /* ==========================================================================
    HEADLINE 
    ========================================================================== */
 
+h1,
+h5 {
+    text-align: center;
+}
 
 h1 {
     font-family: "Calligraffitti";
-    font-size: 3em;
-    color: #9933ff;
+    font-size: 3.5em;
+    color: darkmagenta;
+    margin-bottom: 0;
 }
 
 
 h5 {
     font-family: "Amatic SC";
-    font-size: 2em;
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: whitesmoke;
 }
 
 
