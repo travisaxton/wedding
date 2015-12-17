@@ -107,7 +107,7 @@ textarea {
 
 
 body {
-    background-image: url(hero-lg.JPG);
+    background-image: url(hero.JPG);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -201,7 +201,7 @@ a img {
     line-height: 25px;
     position: absolute;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     top: -3px;
     right: -3px;
     width: 24px;
