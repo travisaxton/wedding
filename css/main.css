@@ -107,7 +107,7 @@ textarea {
 
 
 body {
-    background-image: url(hero.JPG);
+    background-image: url(hero-sm.JPG);
     background-position: 45% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -219,6 +219,10 @@ h5 {
   height: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 a img {
     width: 100px;
     margin: 1em 1em;
@@ -262,6 +266,8 @@ a img {
 
 }
 
+    
+
 @media (min-width: 1000px) {
     
     nav {
@@ -271,6 +277,13 @@ a img {
 
 }
 
+body {
+    background-image: url(hero.JPG);
+    background-position: 45% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 /* ==========================================================================
    Helper classes
