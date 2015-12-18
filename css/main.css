@@ -173,6 +173,7 @@ h1 {
     color: darkmagenta;
     margin-bottom: 0;
     margin-top: 0.3em;
+    line-height: 1em;
 }
 
 
@@ -193,8 +194,8 @@ h5 {
 .modal {
   display: none;
   position: fixed;
-  top: 5%;
-  right: 5%;
+  top: 10%;
+  right: 1%;
   width: 23%;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -215,8 +216,7 @@ h5 {
 .modal-dialog .modal-content {
   margin: auto;
   text-align: center;
-  /*width: 80%;*/
-  height: auto;
+  height: auto;    
 }
 
 a {
@@ -224,10 +224,10 @@ a {
 }
 
 a img {
-    width: 100px;
-    margin: 1em 1em;
+    width: 30%;
+    margin: 0.5em;
     background-color: ghostwhite;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .closebtn {
@@ -281,6 +281,14 @@ a img {
         background-attachment: fixed;
         background-size: cover;
     }
+    
+    .modal {
+        width: 23%;
+        top: 5%;
+        right: 5%;
+    }
+    
+    
 }
 /* ==========================================================================
    Helper classes
