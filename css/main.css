@@ -219,7 +219,7 @@ h5 {
 }
 
 a img {
-    width: 150px;
+    width: 100px;
     margin: 1em 1em;
     background-color: ghostwhite;
     padding: 1em;
@@ -253,16 +253,22 @@ a img {
    MEDIA QUERIES
    ========================================================================== */
 
+@media (min-width: 675px) {
+    
+    ul li:nth-child(5) {
+        display: inline;
+    }
 
+}
 
+@media (min-width: 1000px) {
+    
+    nav {
+        width: 50%;
+        margin: 0 auto;
+    }
 
-
-
-
-
-
-
-
+}
 
 
 /* ==========================================================================
