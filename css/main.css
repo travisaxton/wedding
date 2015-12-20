@@ -384,6 +384,12 @@ a img {
         top: 10%;
         right: 5%;
     } 
+    
+    .wedding {
+        top: 20%;
+        left: 25%;
+        width: 50%;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -395,12 +401,6 @@ a img {
     h5 {
         font-size: 1.5em;
         display: block;
-    }
-    
-    .wedding {
-        top: 20%;
-        left: 25%;
-        width: 50%;
     }
 }
 
