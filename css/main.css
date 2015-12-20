@@ -267,6 +267,10 @@ a img {
     ul li:nth-child(5) {
         display: inline;
     }
+    
+    h5 {
+        display: none;
+    }
 
 }
 
@@ -287,10 +291,11 @@ a img {
     }
     
     .modal {
-        *width: 23%;
+        width: 23%;
         top: 10%;
         right: 5%;
     } 
+    
 }
 
 @media (min-width: 1300px) {
@@ -304,6 +309,7 @@ a img {
     
     h5 {
         font-size: 3em;
+        display: block;
     }
 }
 
