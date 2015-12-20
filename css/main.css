@@ -185,6 +185,7 @@ h5 {
     font-size: 1.7em;
     margin-top: 0;
     color: whitesmoke;
+    display: none;
 }
 
 
@@ -267,11 +268,6 @@ a img {
     ul li:nth-child(5) {
         display: inline;
     }
-    
-    h5 {
-        display: none;
-    }
-
 }
 
 
@@ -298,7 +294,7 @@ a img {
     
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
     .navbar li {
         font-size: 1.6em;
     }
