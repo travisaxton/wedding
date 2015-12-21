@@ -177,6 +177,7 @@ h1 {
     color: darkmagenta; /* Main Heading Color Needs Work */
     margin-top: 0.3em;
     line-height: 1em;
+    text-shadow: 3px 2px 0 #222;
 }
 
 
@@ -186,6 +187,7 @@ h5 {
     margin-top: 0;
     color: whitesmoke;
     display: none;
+    text-shadow: 3px 2px 0 #222;
 }
 
 
@@ -351,13 +353,15 @@ a {
 
 #photo {
     background-image: none;
+    background-color: steelblue;
 }
     
 
     
 .thumbnail-container {
     width: 100%;
-    margin: 0.5em;
+    margin-top: 5%;
+    text-align: center;
 }
 
 .gallery-images {
@@ -411,6 +415,11 @@ a {
         top: 20%;
         left: 25%;
         width: 50%;
+    }
+    
+    .gallery-images {
+        width: auto;
+        height: 250px; 
     }
 }
 
