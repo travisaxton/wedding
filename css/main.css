@@ -177,7 +177,7 @@ h1 {
     color: darkmagenta; /* Main Heading Color Needs Work */
     margin-top: 0.3em;
     line-height: 1em;
-    text-shadow: 3px 2px 0 #222;
+    text-shadow: 2px 1px 0 #222;
 }
 
 
@@ -187,7 +187,7 @@ h5 {
     margin-top: 0;
     color: whitesmoke;
     display: none;
-    text-shadow: 3px 2px 0 #222;
+    text-shadow: 2px 1px 0 #222;
 }
 
 
@@ -428,21 +428,23 @@ a {
         font-size: 1.5em;
         display: block;
     }
-    
-    .gallery-images {
-        width: auto;
-        height: 250px; 
-    }
 }
 
 @media (min-width: 1300px) {
     
     h1 {
         font-size: 4.5em;
+        text-shadow: 3px 2px 0 #222;
     }
     
     h5 {
         font-size: 2.5em;
+        text-shadow: 3px 2px 0 #222;
+    }
+    
+    .gallery-images {
+        width: auto;
+        height: 250px; 
     }
     
 }
