@@ -313,7 +313,7 @@ a {
     text-decoration: none;
 }
 
-a img {
+.retail img {
     width: 30%; /* Using width as a percentage for responsive */
     margin: 0.5em;
     background-color: ghostwhite;
@@ -359,7 +359,7 @@ a img {
     margin: 0;
 }
 
-a img {
+.gallery-images {
     width: 100px;
     height: auto;
     padding: 0;
