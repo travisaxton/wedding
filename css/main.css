@@ -416,11 +416,6 @@ a {
         left: 25%;
         width: 50%;
     }
-    
-    .gallery-images {
-        width: auto;
-        height: 250px; 
-    }
 }
 
 @media (min-width: 1200px) {
@@ -432,6 +427,11 @@ a {
     h5 {
         font-size: 1.5em;
         display: block;
+    }
+    
+    .gallery-images {
+        width: auto;
+        height: 250px; 
     }
 }
 
