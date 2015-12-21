@@ -412,7 +412,6 @@ a {
     } 
     
     .wedding {
-        top: 20%;
         left: 25%;
         width: 50%;
     }
@@ -445,6 +444,10 @@ a {
     .gallery-images {
         width: auto;
         height: 250px; 
+    }
+    
+    .wedding {
+        top: 20%;
     }
     
 }
