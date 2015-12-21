@@ -361,8 +361,10 @@ a {
 }
 
 .gallery-images {
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 150px;
+    border: 1px solid gray;
+    margin-bottom: 0.5em; 
 }
 
 
