@@ -99,7 +99,38 @@ textarea {
    BASE STYLING
    ========================================================================== */
 
+.closebtn {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    font-size: 1.2em;
+    top: -3px;
+    right: -3px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
 
+.closebtn:hover {
+    background: #00d9ff;
+}
+
+.modal-base {
+    display: none;
+    position: fixed;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(0, 0, 0);
+    overflow: auto; 
+}
 
 
 /* ==========================================================================
@@ -154,10 +185,8 @@ body {
 }
 
 ul li:nth-child(5){
-    display: none;
-}
-
-/* Hide the Registry on mobile b/c modal window looks terrible */
+    display: none;   /* Hiding the Registry on mobile b/c modal window looks terrible */
+}                        
 
 
 /* ==========================================================================
@@ -192,19 +221,67 @@ h5 {
 
 
 /* ==========================================================================
+   INFORMATION MODAL 
+   ========================================================================== */
+
+
+.info {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.info:target {
+    display: block;
+    position: absolute;
+}
+
+.info-dialog .info-content {
+    margin: auto;
+    text-align: center;
+    height: auto;
+}
+
+.info p, .info h1, .info h2 {
+    color: whitesmoke;
+    margin: 1em;
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 2em;
+    font-family: "Amatic SC"
+}
+
+.info p {
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: "Antic Slab";
+    text-align: left;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.info img {
+    width: 50%;
+    height: auto;
+    margin: 0.5em;
+    background-color: ghostwhite;
+    padding: 0;
+}
+
+
+/* ==========================================================================
    WEDDING MODAL 
    ========================================================================== */
 
 .wedding {
-    display: none;
-    position: fixed;
     top: 15%;
     width: 100%;
-    height: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.8);
-    overflow: auto;
 }
 
 .wedding:target {
@@ -213,7 +290,7 @@ h5 {
 }
 
 .wedding-dialog {
-    vertical-align: center;    
+    vertical-align: center;
 }
 
 .wedding-dialog .wedding-content {
@@ -253,29 +330,6 @@ h5 {
     padding: 0;
 }
 
-.closebtn {
-    background: #606061;
-    color: #FFFFFF;
-    line-height: 25px;
-    position: absolute;
-    text-align: center;
-    font-size: 1.2em;
-    top: -3px;
-    right: -3px;
-    width: 24px;
-    text-decoration: none;
-    font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
-}
-
-.closebtn:hover {
-    background: #00d9ff;
-}
 
 
 /* ==========================================================================
@@ -284,16 +338,10 @@ h5 {
 
 
 .reg {
-    display: none;
-    position: fixed;
     top: 10%;
     right: 1%;
     width: 23%;
-    height: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.3);
-    overflow: auto;
 }
 
 .reg:target {
@@ -322,30 +370,6 @@ a {
     padding: 0.5em;
 }
 
-.closebtn {
-    background: #606061;
-    color: #FFFFFF;
-    line-height: 25px;
-    position: absolute;
-    text-align: center;
-    font-size: 1.2em;
-    top: -3px;
-    right: -3px;
-    width: 24px;
-    text-decoration: none;
-    font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
-}
-
-.closebtn:hover {
-    background: #00d9ff;
-}
-
 
 /* ==========================================================================
    PHOTO MASONRY PAGE
@@ -355,8 +379,6 @@ a {
     background-image: none;
     background-color: steelblue;
 }
-    
-
     
 .thumbnail-container {
     width: 100%;
