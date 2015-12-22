@@ -132,6 +132,12 @@ textarea {
     overflow: auto; 
 }
 
+.dialog-base .content-base {
+    margin: auto;
+    text-align: center;
+    height: auto;
+}
+
 
 /* ==========================================================================
    HERO IMAGE
@@ -227,19 +233,12 @@ h5 {
 
 .info {
     width: 100%;
-    height: auto;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
 .info:target {
     display: block;
     position: absolute;
-}
-
-.info-dialog .info-content {
-    margin: auto;
-    text-align: center;
-    height: auto;
 }
 
 .info p, .info h1, .info h2 {
@@ -259,7 +258,6 @@ h5 {
     font-family: "Antic Slab";
     text-align: left;
 }
-
 
 a {
     text-decoration: none;
@@ -289,16 +287,6 @@ a {
     position: absolute;
 }
 
-.wedding-dialog {
-    vertical-align: center;
-}
-
-.wedding-dialog .wedding-content {
-    margin: auto;
-    text-align: center;
-    height: auto;
-}
-
 .wedding p, .wedding h1 {
     color: whitesmoke;
     margin: 1em;
@@ -321,8 +309,6 @@ a {
     text-decoration: underline;
     color: whitesmoke;
 }
-
-
 
 .venue {
     width: 35%; /* Using width as a percentage for responsive */
@@ -347,16 +333,6 @@ a {
 .reg:target {
     display: block;
     position: absolute;
-}
-
-.reg-dialog {
-    vertical-align: center;    
-}
-
-.reg-dialog .reg-content {
-    margin: auto;
-    text-align: center;
-    height: auto;
 }
 
 a {
@@ -410,7 +386,6 @@ a {
         width: 70%;
     }
 }
-
 
 @media (min-width: 1000px) {
     
