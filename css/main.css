@@ -225,6 +225,9 @@ h5 {
     text-shadow: 2px 1px 0 #222;
 }
 
+.venue-alert {
+    display: block;
+}
 
 /* ==========================================================================
    INFORMATION MODAL 
@@ -276,9 +279,12 @@ a {
 }
 
 .module {
-    width: 40%;
+    width: 45%;
     display: inline-block;
+    vertical-align: top;
 }
+
+
 /* ==========================================================================
    WEDDING MODAL 
    ========================================================================== */
@@ -419,6 +425,11 @@ a {
         left: 25%;
         width: 50%;
     }
+    
+    .info {
+        left: 5%;
+        width: 90%;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -430,6 +441,11 @@ a {
     h5 {
         font-size: 1.5em;
         display: block;
+    }
+    
+    .info {
+        left: 10%;
+        width: 80%;
     }
 }
 
@@ -452,6 +468,11 @@ a {
     
     .wedding {
         top: 20%;
+    }
+    
+    .info {
+        left: 25%;
+        width: 50%;
     }
     
 }
