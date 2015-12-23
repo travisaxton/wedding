@@ -279,7 +279,7 @@ a {
 }
 
 .module {
-    width: 45%;
+    width: 80%;
     display: inline-block;
     vertical-align: top;
 }
@@ -430,7 +430,12 @@ a {
         left: 5%;
         width: 90%;
     }
+    
+    .module {
+        width: 40%;
+    }
 }
+
 
 @media (min-width: 1200px) {
     
