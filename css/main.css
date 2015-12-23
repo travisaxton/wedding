@@ -248,6 +248,7 @@ h5 {
     color: whitesmoke;
     margin: 1em;
     text-align: center;
+    font-family: "existencelight"
 }
 
 .info h1 {
@@ -304,6 +305,7 @@ a {
     color: whitesmoke;
     margin: 1em;
     text-align: center;
+    font-family: "existencelight";
 }
 
 .wedding h1 {
@@ -314,7 +316,6 @@ a {
 .wedding p {
     font-size: 1em;
     line-height: 1.5;
-    font-family: "Antic Slab";
     text-align: left;
 }
 
