@@ -391,7 +391,7 @@ a {
    ========================================================================== */
 
 
-@media (min-width: 675px) {
+@media screen and (min-width: 675px) {
     
     ul li:nth-child(5) {
         display: inline;
@@ -403,7 +403,8 @@ a {
     }
 }
 
-@media (min-width: 1000px) {
+
+@media screen and (min-width: 1000px) {
     
     nav {
         width: 50%;
@@ -440,7 +441,7 @@ a {
 }
 
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     
     h1 {
         font-size: 2.5em;
@@ -457,7 +458,8 @@ a {
     }
 }
 
-@media (min-width: 1300px) {
+
+@media screen and (min-width: 1300px) {
     
     h1 {
         font-size: 4.5em;
@@ -482,7 +484,6 @@ a {
         left: 25%;
         width: 50%;
     }
-    
 }
 
 
