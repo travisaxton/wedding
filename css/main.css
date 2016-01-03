@@ -256,7 +256,7 @@ h5 {
     position: absolute;
 }
 
-.info p, .info h1, .info h2 {
+.info p, .info h1, .info h2, select {
     color: whitesmoke;
     margin: 1em;
     text-align: center;
