@@ -41,10 +41,3 @@ preload([
     'css/img/skyline4.JPG'
 ]);
 
-$(window).resize(function(){
-        if(window.innerWidth > 1000) {
-            $(".venue-alert").remove();
-            $(".venue-top").after("<h5 class='venue-alert'>(Wedding Venue)</h5>");
-        }
-});
-
