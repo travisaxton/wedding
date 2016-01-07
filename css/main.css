@@ -197,7 +197,7 @@ body {
     padding: 0.2em;
 }
 
-ul li:nth-child(5){
+ul li:nth-child(8){
     display: none;   /* Hiding the Registry on mobile b/c modal window looks terrible */
 }                        
 
@@ -248,6 +248,7 @@ h5 {
 .photos {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
+    
 }
 
 
@@ -255,6 +256,8 @@ h5 {
     display: block;
     position: absolute;
 }
+
+
 
 
 /* ==========================================================================
@@ -416,10 +419,11 @@ a {
 }
 
 .gallery-images {
-    width: auto;
-    height: 150px;
-    border: 1px solid gray;
-    margin-bottom: 0.5em; 
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border: none;
+    padding: 1em;
 }
 
 
@@ -430,7 +434,7 @@ a {
 
 @media screen and (min-width: 675px) {
     
-    ul li:nth-child(5) {
+    ul li:nth-child(8) {
         display: inline;
     }
     
@@ -470,6 +474,7 @@ a {
     .info {
         left: 5%;
         width: 90%;
+        top: 10%;
     }
     
     .module {
@@ -514,11 +519,6 @@ a {
     h5 {
         font-size: 2.5em;
         text-shadow: 3px 2px 0 #222;
-    }
-    
-    .gallery-images {
-        width: auto;
-        height: 250px; 
     }
     
     .wedding {
