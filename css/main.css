@@ -471,12 +471,8 @@ a {
         width: 50%;
     }
     
+    .info,
     .photos {
-        width: 90%;
-        left: 5%;
-    }
-    
-    .info {
         left: 5%;
         width: 90%;
         top: 10%;
