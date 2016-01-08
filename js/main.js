@@ -28,7 +28,7 @@ preload([
     'css/img/peek-a-boo.JPG',
     'css/img/peek-a-boo2.JPG',
     'css/img/pond-back.JPG',
-    'css/img/skyline-brent.JPG'
+    'css/img/skyline-brent.JPG',
     'css/img/skyline-bw.JPG',
     'css/img/skyline-tierra.JPG',
     'css/img/skyline-tierra02.JPG',
