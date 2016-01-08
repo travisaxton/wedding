@@ -153,7 +153,7 @@ html {
 
 body {
     background-image: url('hero-alt2%20copy.JPG');
-    background-position: 15% 50%;
+    background-position: 18% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -311,7 +311,9 @@ select {
     /*text-align: left;*/
 }
 
-
+.highlight {
+    text-decoration: underline;
+}
 /* ==========================================================================
    WEDDING MODAL 
    ========================================================================== */
