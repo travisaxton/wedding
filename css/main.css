@@ -317,6 +317,7 @@ select {
 
 .number {
     color: whitesmoke;
+    text-decoration: underline;
 }
 
 /* ==========================================================================
@@ -452,7 +453,8 @@ a {
     }
     
     .number {
-        pointer-events: none;  /* disables phone # link in larger screen size */
+        pointer-events: none;
+        text-decoration: none;/* disables phone # link in larger screen size */
     }
 }
 
