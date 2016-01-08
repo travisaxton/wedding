@@ -104,7 +104,9 @@ html {
     height: 100%;  /* Fix for Android/mobile - hero image gets cut off on small screen sizes */
 }
 
-
+a {
+    text-decoration: none;
+}
 
 .closebtn {
     background: #606061;
@@ -271,15 +273,12 @@ h5 {
     font-family: "Amatic SC"
 }
 
-.info p {
+.info p,
+.highlight {
     font-size: 1em;
     line-height: 1.5;
     font-family: "Antic Slab";
     text-align: left;
-}
-
-a {
-    text-decoration: none;
 }
 
 .info img {
@@ -295,7 +294,7 @@ a {
 }
 
 .info span {
-    font-size: 0.5em;
+    font-size: 1.2em;
 }
 
 .module {
@@ -313,7 +312,13 @@ select {
 
 .highlight {
     text-decoration: underline;
+    color: red;
 }
+
+.number {
+    color: whitesmoke;
+}
+
 /* ==========================================================================
    WEDDING MODAL 
    ========================================================================== */
@@ -444,6 +449,10 @@ a {
     .wedding {
         left: 15%;
         width: 70%;
+    }
+    
+    .number {
+        pointer-events: none;  /* disables phone # link in larger screen size */
     }
 }
 
