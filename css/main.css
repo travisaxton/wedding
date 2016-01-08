@@ -164,7 +164,10 @@ body {
    NAVBAR
    ========================================================================== */
 
-
+nav {
+    position: fixed;
+    bottom: 0;
+}
 .navbar {
     list-style-type: none;
     display: flex;
@@ -215,7 +218,7 @@ h5 {
 
 h1 {
     font-family: "Calligraffitti";
-    font-size: 2.5em;
+    font-size: 2em;
     color: darkmagenta; /* Main Heading Color Needs Work */
     margin-top: 0.3em;
     line-height: 1em;
@@ -239,25 +242,6 @@ h5 {
 .venue-alert-hidden {
     display: none;
 }
-
-
-/* ==========================================================================
-   PHOTOS MODAL 
-   ========================================================================== */
-
-.photos {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    
-}
-
-
-.photos:target {
-    display: block;
-    position: absolute;
-}
-
-
 
 
 /* ==========================================================================
@@ -323,7 +307,8 @@ a {
 select {
     background-color: black;
     color: whitesmoke;
-    width: 50%; 
+    width: 50%;
+    /*text-align: left;*/
 }
 
 
@@ -407,6 +392,17 @@ a {
    ========================================================================== */
 
 
+.photos {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.photos:target {
+    display: block;
+    position: absolute;
+}
+
 #photo {
     background-image: none;
     background-color: steelblue;
@@ -433,6 +429,11 @@ a {
 
 
 @media screen and (min-width: 675px) {
+    
+    nav {
+        position: relative;
+    }
+    
     
     ul li:nth-child(8) {
         display: inline;
