@@ -216,6 +216,7 @@ h1,
 h5 {
     text-align: center;
     margin-bottom: 0;
+    text-shadow: 2px 1px 0 #222;
 }
 
 h1 {
@@ -224,7 +225,6 @@ h1 {
     color: darkmagenta; /* Main Heading Color Needs Work */
     margin-top: 0.3em;
     line-height: 1em;
-    text-shadow: 2px 1px 0 #222;
 }
 
 
@@ -233,15 +233,6 @@ h5 {
     font-size: 1.7em;
     margin-top: 0;
     color: whitesmoke;
-    display: none;
-    text-shadow: 2px 1px 0 #222;
-}
-
-.venue-alert-visible {
-    display: block;
-}
-
-.venue-alert-hidden {
     display: none;
 }
 
@@ -261,7 +252,10 @@ h5 {
     position: absolute;
 }
 
-.info p, .info h1, .info h2, select {
+.info p, 
+.info h1, 
+.info h2, 
+select {
     color: whitesmoke;
     margin: 1em;
     text-align: center;
@@ -289,14 +283,6 @@ h5 {
     padding: 0;
 }
 
-.cove {
-    
-}
-
-.info span {
-    font-size: 1.2em;
-}
-
 .module {
     width: 80%;
     display: inline-block;
@@ -305,9 +291,7 @@ h5 {
 
 select {
     background-color: black;
-    color: whitesmoke;
     width: 50%;
-    /*text-align: left;*/
 }
 
 .highlight {
@@ -318,6 +302,15 @@ select {
     color: whitesmoke;
     text-decoration: underline;
 }
+
+.venue-alert-visible {
+    display: block;
+}
+
+.venue-alert-hidden {
+    display: none;
+}
+
 
 /* ==========================================================================
    WEDDING MODAL 
@@ -335,11 +328,11 @@ select {
     position: absolute;
 }
 
-.wedding p, .wedding h1 {
+.wedding p, 
+.wedding h1 {
     color: whitesmoke;
     margin: 1em;
     text-align: center;
-    font-family: "existencelight";
 }
 
 .wedding h1 {
@@ -349,6 +342,7 @@ select {
 
 .wedding p {
     font-size: 1em;
+    font-family: "existencelight";
     line-height: 1.5;
     text-align: left;
 }
@@ -382,7 +376,7 @@ select {
     position: absolute;
 }
 
-a {
+.retail a {
     text-decoration: none;
 }
 
