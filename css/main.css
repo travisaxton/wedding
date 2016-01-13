@@ -394,8 +394,7 @@ select {
 
 
 .bridal {
-    top: 15%;
-    width: 100%;
+    top: 10%;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -405,7 +404,7 @@ select {
 }
 
 .bridal-list {
-    margin: 2em;
+    margin: 3em 0;
     text-align: center;
 }
 
@@ -415,17 +414,54 @@ select {
     object-fit: cover;
 }
 
+.guys,
 .girls {
     display: inline-block;
-    width: 300px;
     vertical-align: top;
 }
 
-.guys {
-    width: 400px;
-    text-align: center;
-    display: inline-block;
+.girls {
+    width: 250px;
 }
+
+.guys {
+    width: 340px;
+    height: 110px;
+}
+
+.bridal h1,
+.bridal h2,
+.bridal h4,
+.bridal p {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.bridal h2,
+.bridal h4 {
+    font-family: "existencelight"; 
+}
+
+.bridal h1 {
+    font-family: "Amatic SC";
+    font-size: 2em;
+}
+
+.bridal h4 {
+    font-size: 1.4em;
+    margin: 0;
+}
+
+#sides {
+    margin-top: 3em;
+    font-size: 2em;
+}
+
+.adjust {
+    display: inline-block;
+    vertical-align: top;
+}
+
 
 /* ==========================================================================
    PHOTO MODAL
@@ -479,7 +515,8 @@ select {
         display: inline;
     }
     
-    .wedding {
+    .wedding,
+    .bridal {
         left: 15%;
         width: 70%;
     }
