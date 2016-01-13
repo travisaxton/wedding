@@ -202,7 +202,7 @@ nav {
     padding: 0.2em;
 }
 
-ul li:nth-child(8){
+.navbar li:nth-child(8){
     display: none;   /* Hiding the Registry on mobile b/c modal window looks terrible */
 }                        
 
@@ -404,12 +404,28 @@ select {
     position: absolute;
 }
 
+.bridal-list {
+    margin: 2em;
+    text-align: center;
+}
+
 .bridal-images {
     width: 90px;
     height: 110px;
     object-fit: cover;
 }
 
+.girls {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.guys {
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+}
 
 /* ==========================================================================
    PHOTO MODAL
@@ -459,7 +475,7 @@ select {
     }
     
     
-    ul li:nth-child(8) {
+    .navbar li:nth-child(8) {
         display: inline;
     }
     
