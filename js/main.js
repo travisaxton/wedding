@@ -36,5 +36,8 @@ preload([
     'css/img/skyline2.JPG',
     'css/img/skyline3.JPG',
     'css/img/skyline4.JPG'
-]);
+]); 
 
+$("#info").click(function() {
+    window.scrollTo(0, 0);    
+});
