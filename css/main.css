@@ -526,6 +526,14 @@ select {
         pointer-events: none;
         text-decoration: none;/* disables phone # link in larger screen size */
     }
+    
+    .bridal h2 {
+        font-size: 1.5em;
+    }
+    
+    .bridal h4 {
+        font-size: 1.3em;
+    }
 }
 
 
@@ -549,11 +557,6 @@ select {
         top: 10%;
         right: 5%;
     } 
-    
-    .wedding {
-        left: 25%;
-        width: 50%;
-    }
     
     .info,
     .photos {
