@@ -101,8 +101,9 @@ textarea {
 
 
 html {
-    height: 100%;  /* Fix for Android/mobile - hero image gets cut off on small screen sizes */
+    height: 100%;/* Fix for Android/mobile - hero image gets cut off on small screen sizes */
 }
+
 
 a {
     text-decoration: none;
