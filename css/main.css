@@ -447,6 +447,7 @@ select {
 .bridal h1 {
     font-family: "Amatic SC";
     font-size: 2em;
+    margin: 1em 0 0;
 }
 
 .bridal p {
@@ -455,8 +456,9 @@ select {
 }
 
 #sides {
-    margin-top: 1.5em;
-    font-size: 2em;
+    font-size: 1.5em;
+    margin: 0;
+    text-align: left;
 }
 
 .adjust {
@@ -535,6 +537,10 @@ select {
     .bridal h4 {
         font-size: 1.3em;
     }
+    
+    #sides {
+        text-align: center;
+    }
 }
 
 
@@ -591,10 +597,6 @@ select {
         display: block;
     }
     
-    .info {
-        left: 10%;
-        width: 80%;
-    }
 }
 
 
@@ -608,10 +610,6 @@ select {
     h5 {
         font-size: 2.5em;
         text-shadow: 3px 2px 0 #222;
-    }
-    
-    .wedding {
-        top: 20%;
     }
     
     .info {
