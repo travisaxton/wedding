@@ -138,8 +138,7 @@ a {
     position: fixed;
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgb(0, 0, 0);
-    overflow: hidden; 
+    background-color: rgb(0, 0, 0); 
 }
 
 .dialog-base .content-base {
@@ -448,6 +447,10 @@ select {
     font-family: "Amatic SC";
     font-size: 2em;
     margin: 1em 0 0;
+}
+
+.bridal h4 {
+    margin-top: 0;
 }
 
 .bridal p {

@@ -44,4 +44,4 @@ function browserTop(){
     }, 1);
 }
 
-
+//$(document).ready(browserTop()); 
