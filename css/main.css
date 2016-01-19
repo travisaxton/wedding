@@ -440,16 +440,17 @@ select {
 
 .bridal h2,
 .bridal h4 {
-    font-family: "existencelight"; 
+    font-family: "existencelight";
+    font-size: 1em;
 }
 
 .bridal h1 {
     font-family: "Amatic SC";
-    font-size: 3em;
+    font-size: 2em;
 }
 
-.bridal h4 {
-    font-size: 1.4em;
+.bridal p {
+    font-size: 1em;
     margin: 0;
 }
 
