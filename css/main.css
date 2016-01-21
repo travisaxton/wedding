@@ -116,8 +116,8 @@ a {
     position: absolute;
     text-align: center;
     font-size: 1.2em;
-    top: -3px;
-    right: -3px;
+    top: -30px;
+    right: 2px;
     width: 24px;
     text-decoration: none;
     font-weight: bold;
@@ -137,14 +137,22 @@ a {
     display: none;
     position: fixed;
     height: auto;
+    top: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: rgb(0, 0, 0); 
 }
 
-.dialog-base .content-base {
+.dialog,
+.content {
     margin: auto;
     text-align: center;
     height: auto;
+}
+
+.dialog {
+    position: relative;
+    overflow: auto;
+    height: 700px;
 }
 
 
@@ -245,13 +253,17 @@ h5 {
 
 
 .info {
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
 .info:target {
     display: block;
-    position: absolute;
+    position: fixed;
+}
+
+.info-dialog {
+    position: relative;
+    overflow: auto;
 }
 
 .info p, 
@@ -320,14 +332,26 @@ select {
 
 
 .wedding {
+<<<<<<< HEAD
+=======
     width: 100%;
+>>>>>>> 4792b982cf7fcc35a8c4909e9bf35a48fee6ec91
     background-color: rgba(0, 0, 0, 0.8);
 }
 
 .wedding:target {
     display: block;
+<<<<<<< HEAD
+    position: fixed;
+}
+
+.wedding-dialog {
+    position: relative;
+    overflow: auto;
+=======
     position: absolute;
     top: 10%;
+>>>>>>> 4792b982cf7fcc35a8c4909e9bf35a48fee6ec91
 }
 
 .wedding p, 
@@ -367,15 +391,21 @@ select {
 
 
 .reg {
-    top: 10%;
     right: 1%;
     width: 23%;
     background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    text-align: center;
 }
 
 .reg:target {
     display: block;
     position: absolute;
+}
+
+.reg-closebtn {
+    top: -8px;
+    right: -7px;
 }
 
 .retail a {
@@ -401,7 +431,12 @@ select {
 
 .bridal:target {
     display: block;
-    position: absolute;
+    position: fixed;
+}
+
+.bridal-dialog {
+    position: relative;
+    overflow: auto;
 }
 
 .bridal-list {
@@ -476,14 +511,17 @@ select {
 
 
 .photos {
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
-    
 }
 
 .photos:target {
     display: block;
-    position: absolute;
+    position: fixed;
+}
+
+.photos-dialog {
+    position: relative;
+    overflow: auto;
 }
     
 .thumbnail-container {
