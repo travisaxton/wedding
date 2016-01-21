@@ -332,26 +332,17 @@ select {
 
 
 .wedding {
-<<<<<<< HEAD
-=======
-    width: 100%;
->>>>>>> 4792b982cf7fcc35a8c4909e9bf35a48fee6ec91
     background-color: rgba(0, 0, 0, 0.8);
 }
 
 .wedding:target {
     display: block;
-<<<<<<< HEAD
     position: fixed;
 }
 
 .wedding-dialog {
     position: relative;
     overflow: auto;
-=======
-    position: absolute;
-    top: 10%;
->>>>>>> 4792b982cf7fcc35a8c4909e9bf35a48fee6ec91
 }
 
 .wedding p, 
