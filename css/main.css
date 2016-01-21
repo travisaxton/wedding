@@ -166,10 +166,12 @@ body {
    NAVBAR
    ========================================================================== */
 
+
 nav {
     position: fixed;
     bottom: 0;
 }
+
 .navbar {
     list-style-type: none;
     display: flex;
@@ -255,7 +257,7 @@ h5 {
 .info p, 
 .info h1, 
 .info h2, 
-select {
+ select {
     color: whitesmoke;
     margin: 1em;
     text-align: center;
@@ -318,7 +320,6 @@ select {
 
 
 .wedding {
-    top: 15%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -326,6 +327,7 @@ select {
 .wedding:target {
     display: block;
     position: absolute;
+    top: 10%;
 }
 
 .wedding p, 
@@ -394,7 +396,6 @@ select {
 
 
 .bridal {
-    top: 15%;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -409,8 +410,8 @@ select {
 }
 
 .bridal-images {
-    width: 90px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
 }
 
@@ -426,7 +427,6 @@ select {
 
 .guys {
     width: 340px;
-    height: 110px;
 }
 
 .bridal h1,
@@ -485,11 +485,6 @@ select {
     display: block;
     position: absolute;
 }
-
-#photo {
-    background-image: none;
-    background-color: steelblue;
-}
     
 .thumbnail-container {
     width: 100%;
@@ -540,10 +535,7 @@ select {
     .bridal h4 {
         font-size: 1.3em;
     }
-    
-    #sides {
-        text-align: center;
-    }
+
 }
 
 
@@ -586,6 +578,10 @@ select {
     .venue-alert-hidden {
         display: block;
     }
+    
+    #sides {
+        text-align: center;
+    }
 }
 
 
@@ -615,10 +611,6 @@ select {
         text-shadow: 3px 2px 0 #222;
     }
     
-    .info {
-        left: 25%;
-        width: 50%;
-    }
 }
 
 

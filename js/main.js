@@ -38,10 +38,3 @@ preload([
     'css/img/skyline4.JPG'
 ]); 
 
-function browserTop(){
-    setTimeout(function(){
-        window.scrollTo(0, 0);
-    }, 1);
-}
-
-//$(document).ready(browserTop()); 
