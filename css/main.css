@@ -549,7 +549,8 @@ select {
     
     .wedding,
     .bridal,
-    .info {
+    .info,
+    .photos {
         left: 15%;
         width: 70%;
     }
@@ -591,11 +592,6 @@ select {
         right: 5%;
     } 
     
-    .photos {
-        left: 5%;
-        width: 90%;
-        top: 15%;
-    }
     
     .module {
         width: 40%;
