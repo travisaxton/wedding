@@ -116,8 +116,8 @@ a {
     position: absolute;
     text-align: center;
     font-size: 1.2em;
-    top: -30px;
-    right: 2px;
+    top: -8px;
+    right: -7px;
     width: 24px;
     text-decoration: none;
     font-weight: bold;
@@ -137,7 +137,7 @@ a {
     display: none;
     position: fixed;
     height: auto;
-    top: 10%;
+    top: 15%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: rgb(0, 0, 0); 
 }
@@ -383,6 +383,7 @@ select {
 
 .reg {
     right: 1%;
+    top: 10%;
     width: 23%;
     background-color: rgba(0, 0, 0, 0.3);
     margin: auto;
@@ -392,11 +393,6 @@ select {
 .reg:target {
     display: block;
     position: absolute;
-}
-
-.reg-closebtn {
-    top: -8px;
-    right: -7px;
 }
 
 .retail a {
@@ -501,6 +497,13 @@ select {
    ========================================================================== */
 
 
+.photos h1 {
+    font-size: 2em;
+    font-family: "Amatic SC";
+    color: whitesmoke;
+    margin: 1em 0 0;
+}
+
 .photos {
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -515,10 +518,8 @@ select {
     overflow: auto;
 }
     
-.thumbnail-container {
-    width: 100%;
-    margin-top: 5%;
-    text-align: center;
+.photos-content {
+    margin: 1em;
 }
 
 .gallery-images {
@@ -547,7 +548,8 @@ select {
     }
     
     .wedding,
-    .bridal {
+    .bridal,
+    .info {
         left: 15%;
         width: 70%;
     }
@@ -589,7 +591,6 @@ select {
         right: 5%;
     } 
     
-    .info,
     .photos {
         left: 5%;
         width: 90%;
@@ -598,6 +599,10 @@ select {
     
     .module {
         width: 40%;
+    }
+    
+    .venue {
+        width: 20%;
     }
     
     .venue-alert-visible {
