@@ -468,7 +468,7 @@ select {
 .bridal h1 {
     font-family: "Amatic SC";
     font-size: 2em;
-    margin: 1em 0 0;
+    margin: 1em;
 }
 
 .bridal h4 {
@@ -501,7 +501,7 @@ select {
     font-size: 2em;
     font-family: "Amatic SC";
     color: whitesmoke;
-    margin: 1em 0 0;
+    margin: 1em 0 0.5em;
 }
 
 .photos {
@@ -519,7 +519,7 @@ select {
 }
     
 .photos-content {
-    margin: 1em;
+   /* margin: 1em;*/
 }
 
 .gallery-images {
