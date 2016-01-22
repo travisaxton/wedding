@@ -152,7 +152,7 @@ a {
 .dialog {
     position: relative;
     overflow: auto;
-    height: 700px;
+    height: 400px;
 }
 
 
@@ -641,6 +641,9 @@ select {
         text-shadow: 3px 2px 0 #222;
     }
     
+    .dialog {
+        height: 700px;
+    }
 }
 
 
