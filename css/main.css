@@ -124,9 +124,6 @@ a {
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
 }
 
 .closebtn:hover {
@@ -178,6 +175,7 @@ body {
 nav {
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
 .navbar {
