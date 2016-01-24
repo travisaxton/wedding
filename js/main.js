@@ -38,3 +38,10 @@ preload([
     'css/img/skyline4.JPG'
 ]); 
 
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 33.8222, lng: -78.6811},
+    zoom: 10
+  });
+}

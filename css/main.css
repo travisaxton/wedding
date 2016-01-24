@@ -133,6 +133,7 @@ a {
     display: none;
     position: fixed;
     height: auto;
+    width: 100%;
     top: 10%;
     background-color: rgb(0, 0, 0); 
 }
@@ -405,7 +406,6 @@ select {
 
 .bridal {
     background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
 }
 
 .bridal:target {
@@ -500,16 +500,38 @@ select {
     position: fixed;
 }
     
-.photos-content {
-   /* margin: 1em;*/
-}
-
 .gallery-images {
     width: 120px;
     height: 120px;
     object-fit: contain;
     border: none;
     padding: 1em;
+}
+
+
+/* ==========================================================================
+   EVENTS
+   ========================================================================== */
+
+.events h1 {
+    font-size: 2em;
+    font-family: "Amatic SC";
+    color: whitesmoke;
+    margin: 0.5em;
+}
+.events:target {
+    display: block;
+    position: fixed;
+}
+
+.events {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#map {
+    margin: auto;
+    width: 350px;
+    height: 350px;
 }
 
 
@@ -548,7 +570,8 @@ select {
     .wedding,
     .bridal,
     .info,
-    .photos {
+    .photos,
+    .events {
         left: 15%;
         width: 70%;
     }
