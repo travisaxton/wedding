@@ -149,7 +149,7 @@ a {
 .dialog {
     position: relative;
     overflow: auto;
-    height: 350px;
+    height: 55vh;
 }
 
 
@@ -500,7 +500,7 @@ select {
     font-size: 2em;
     font-family: "Amatic SC";
     color: whitesmoke;
-    margin: 1em 0 0.5em;
+    margin: 1em 0;
 }
 
 .photos {
