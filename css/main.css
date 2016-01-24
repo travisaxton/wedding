@@ -274,6 +274,10 @@ h5 {
     margin: 1em;
 }
 
+.dropdown {
+    display: none;
+}
+
 .info h1 {
     font-size: 2em;
     font-family: "Amatic SC";
@@ -550,6 +554,9 @@ select {
         height: 400px;
     }
     
+    .dropdown {
+        display: inline-block;
+    }
     
     nav {
         position: relative;
@@ -611,7 +618,7 @@ select {
     }
     
     .venue {
-        width: 20%;
+        width: 60%;
     }
     
     .venue-alert-visible {
