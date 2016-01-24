@@ -269,14 +269,15 @@ h5 {
 .info h2, 
  select {
     color: whitesmoke;
-    margin: 1em;
     text-align: center;
-    font-family: "existencelight"
+    font-family: "existencelight";
+    margin: 1em;
 }
 
 .info h1 {
     font-size: 2em;
-    font-family: "Amatic SC"
+    font-family: "Amatic SC";
+    margin: 0.5em;
 }
 
 .info p,
@@ -346,13 +347,13 @@ select {
 .wedding p, 
 .wedding h1 {
     color: whitesmoke;
-    margin: 1em;
     text-align: center;
+    margin: 0.5em;
 }
 
 .wedding h1 {
     font-size: 2em;
-    font-family: "Amatic SC"
+    font-family: "Amatic SC";
 }
 
 .wedding p {
@@ -467,7 +468,7 @@ select {
 .bridal h1 {
     font-family: "Amatic SC";
     font-size: 2em;
-    margin: 1em;
+    margin: 0.5em;
 }
 
 .bridal h4 {
@@ -500,7 +501,7 @@ select {
     font-size: 2em;
     font-family: "Amatic SC";
     color: whitesmoke;
-    margin: 1em 0;
+    margin: 0.5em;
 }
 
 .photos {
