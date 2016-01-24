@@ -104,7 +104,6 @@ html {
     height: 100%;/* Fix for Android/mobile - hero image gets cut off on small screen sizes */
 }
 
-
 a {
     text-decoration: none;
 }
@@ -135,7 +134,6 @@ a {
     position: fixed;
     height: auto;
     top: 10%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: rgb(0, 0, 0); 
 }
 
@@ -259,11 +257,6 @@ h5 {
     position: fixed;
 }
 
-.info-dialog {
-    position: relative;
-    overflow: auto;
-}
-
 .info p, 
 .info h1, 
 .info h2, 
@@ -343,11 +336,6 @@ select {
     position: fixed;
 }
 
-.wedding-dialog {
-    position: relative;
-    overflow: auto;
-}
-
 .wedding p, 
 .wedding h1 {
     color: whitesmoke;
@@ -423,11 +411,6 @@ select {
 .bridal:target {
     display: block;
     position: fixed;
-}
-
-.bridal-dialog {
-    position: relative;
-    overflow: auto;
 }
 
 .bridal-list {
@@ -515,11 +498,6 @@ select {
 .photos:target {
     display: block;
     position: fixed;
-}
-
-.photos-dialog {
-    position: relative;
-    overflow: auto;
 }
     
 .photos-content {
