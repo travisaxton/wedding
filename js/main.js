@@ -1,14 +1,23 @@
 
 var map;
 
-
-function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 33.8222, lng: -78.6811},
-    zoom: 10
-  });
+function displayMap() {
+    document.getElementById('events').style.display="block";
+    initMap();
 }
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 33.8222, lng: -78.6811},
+        zoom: 10 
+      });  
+    }
 
+function hideMap() {
+    $('.closebtn').click(function() {
+        $('#events').hide();
+    });
+}
+         
 
 function preload(arrayOfImages) {
     $(arrayOfImages).each(function () {
