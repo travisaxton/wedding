@@ -1,4 +1,6 @@
+
 var map;
+
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -6,7 +8,6 @@ function initMap() {
     zoom: 10
   });
 }
-
 
 
 function preload(arrayOfImages) {
