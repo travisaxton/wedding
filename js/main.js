@@ -14,12 +14,23 @@ function displayMap() {
       });  
     }
 
+/*
 function hideMap() {
     $('.closebtn').click(function() {
         $('#events').hide();
     });
 }
-         
+*/
+
+$('.closebtn').click(function() {
+    $('#events').hide();
+});
+
+
+$('.closeEvent').click(function() {
+    $('#events').hide();
+});
+
 
 function preload(arrayOfImages) {
     $(arrayOfImages).each(function () {
