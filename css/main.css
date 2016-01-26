@@ -100,7 +100,8 @@ textarea {
    ========================================================================== */
 
 
-html {
+html,
+body {
     height: 100%;/* Fix for Android/mobile - hero image gets cut off on small screen sizes */
 }
 
@@ -528,10 +529,24 @@ select {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 10%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  font-size: 10px;
+  padding-left: 10px;
+}
+
 #map {
     margin: auto;
-    height: 250px;
-    width: 250px;
+    height: 600px;
+    width: 600px;
 }
 
 
