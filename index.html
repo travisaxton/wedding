@@ -206,7 +206,7 @@
                 <div class="content">
                     <div>
                         <div class="nb module">
-                            <h2>North Beach Plantation</h2>
+                            <h2 id="hotel-header">North Beach Plantation</h2>
                                 <a href="http://www.northbeachrentals.com/" target="_blank">
                                     <h5 class="venue-alert-visible">(Wedding Venue)</h5>
                                     <img src="css/northbeach.jpeg" title="North Beach Plantation">
@@ -236,7 +236,7 @@
                             <h5 class="venue-alert-hidden">(Wedding Venue)</h5>
                         </div>
                         <div class="bc module">
-                            <h2>Beach Cove Resort</h2>
+                            <h2 id="hotel-header">Beach Cove Resort</h2>
                                 <a href="http://www.beachcove.com/" target="_blank">
                                     <img src="css/beachcove.jpeg" class="cove" title="Beach Cove Resort">
                                 </a>
@@ -383,26 +383,28 @@
             <h1>Events</h1>
             <div class="dialog">
                 <div class="content">
-                    <div id="floating-panel">
-                        <b>Start: </b>
-                        <select id="start" onchange="calcRoute();">
-                            <option value="21 Main Steakhouse, 719 North Beach Boulevard, North Myrtle Beach, SC 29582">21 Main</option>
-                            <option value="Myrtle Beach International Airport">Airport</option>
-                            <option value="Beach Cove Resort, 4800 South Ocean Boulevard, North Myrtle Beach, SC 29582">Beach Cove Resort</option>
-                            <option value="Myrtle Beach Boardwalk and Promenade, Myrtle Beach, SC 29577">Boardwalk</option>
-                            <option value="North Beach 1016, 100 North Beach Blvd #1016, North Myrtle Beach, SC 29582">North Beach Plantation</option>    
-                        </select>
-                        <br>
-                        <b>End: </b>
-                        <select id="end" onchange="calcRoute();">
-                            <option value="21 Main Steakhouse, 719 North Beach Boulevard, North Myrtle Beach, SC 29582">21 Main</option>
-                            <option value="Myrtle Beach International Airport">Airport</option>
-                            <option value="Beach Cove Resort, 4800 South Ocean Boulevard, North Myrtle Beach, SC 29582">Beach Cove Resort</option>
-                            <option value="Myrtle Beach Boardwalk and Promenade, Myrtle Beach, SC 29577">Boardwalk</option>
-                            <option value="North Beach 1016, 100 North Beach Blvd #1016, North Myrtle Beach, SC 29582">North Beach Plantation</option>    
-                        </select>
+                    <div class="map-container">
+                        <div id="floating-panel">
+                            <b>Start: </b>
+                            <select id="start" onchange="calcRoute();">
+                                <option value="21 Main Steakhouse, 719 North Beach Boulevard, North Myrtle Beach, SC 29582">21 Main</option>
+                                <option value="Myrtle Beach International Airport">Airport</option>
+                                <option value="Beach Cove Resort, 4800 South Ocean Boulevard, North Myrtle Beach, SC 29582">Beach Cove Resort</option>
+                                <option value="Myrtle Beach Boardwalk and Promenade, Myrtle Beach, SC 29577">Boardwalk</option>
+                                <option value="North Beach 1016, 100 North Beach Blvd #1016, North Myrtle Beach, SC 29582">North Beach Plantation</option>    
+                            </select>
+                            <br>
+                            <b>End: </b>
+                            <select id="end" onchange="calcRoute();">
+                                <option value="21 Main Steakhouse, 719 North Beach Boulevard, North Myrtle Beach, SC 29582">21 Main</option>
+                                <option value="Myrtle Beach International Airport">Airport</option>
+                                <option value="Beach Cove Resort, 4800 South Ocean Boulevard, North Myrtle Beach, SC 29582">Beach Cove Resort</option>
+                                <option value="Myrtle Beach Boardwalk and Promenade, Myrtle Beach, SC 29577">Boardwalk</option>
+                                <option value="North Beach 1016, 100 North Beach Blvd #1016, North Myrtle Beach, SC 29582">North Beach Plantation</option>    
+                            </select>
+                        </div>
+                        <div id="map"></div>
                     </div>
-                    <div id="map"></div>
                 </div>
             </div>
         </div>

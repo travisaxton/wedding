@@ -288,9 +288,9 @@ h5 {
 }
 
 .info img {
-    width: 50%;
+    width: 40%;
     height: auto;
-    margin: 0.5em;
+    margin: 0.5em 1.5em;
     background-color: ghostwhite;
     padding: 0;
 }
@@ -303,7 +303,7 @@ h5 {
 
 select {
     background-color: black;
-    width: 50%;
+    width: 40%;
 }
 
 .highlight {
@@ -323,6 +323,9 @@ select {
     display: none;
 }
 
+#hotel-header {
+    margin: 0.5em;
+}
 
 /* ==========================================================================
    WEDDING MODAL 
@@ -532,21 +535,33 @@ select {
 #floating-panel {
   position: absolute;
   top: 10px;
-  left: 10%;
+  left: 5%;
   z-index: 5;
   background-color: #fff;
   padding: 5px;
   border: 1px solid #999;
   text-align: center;
-  font-family: 'Roboto','sans-serif';
-  font-size: 10px;
+  font-size: 13px;
   padding-left: 10px;
 }
 
+#floating-panel select,
+#floating-panel option {
+    font-family: 'Roboto', 'sans-serif';
+    width: auto;
+    color: black;
+    background-color: white;
+    
+}
+
 #map {
+    height: 100%;
+}
+
+.map-container {
+    width: 55vw;
+    height: 25vh;
     margin: auto;
-    height: 600px;
-    width: 600px;
 }
 
 
@@ -570,7 +585,8 @@ select {
     }
     
     .dropdown {
-        display: inline-block;
+        display: block;
+        margin: auto;
     }
     
     nav {
