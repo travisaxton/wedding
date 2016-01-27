@@ -6,6 +6,7 @@ function displayMap() {
     initMap();
 }
 
+
     function initMap() {
       var directionsDisplay = new google.maps.DirectionsRenderer;
       var directionsService = new google.maps.DirectionsService;
@@ -18,9 +19,9 @@ function displayMap() {
       directionsDisplay.setMap(map);
       directionsDisplay.setPanel(document.getElementById('right-panel'));
 
-      var control = document.getElementById('floating-panel');
-      control.style.display = 'block';
-      map.controls[google.maps.ControlPosition.TOP_LEFT].push(control);
+      //var control = document.getElementById('floating-panel');
+      //control.style.display = 'block';
+      //map.controls[google.maps.ControlPosition.TOP_LEFT].push(control);
 
       var onChangeHandler = function() {
         calculateAndDisplayRoute(directionsService, directionsDisplay);
@@ -44,8 +45,6 @@ function displayMap() {
         }
       });
     }
-
-
 
 
 
