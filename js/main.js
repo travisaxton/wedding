@@ -4,6 +4,7 @@ var map;
 function displayMap() {
     document.getElementById('events').style.display="block";
     initMap();
+    location.reload(true);
 }
 
 

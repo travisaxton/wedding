@@ -558,18 +558,33 @@ select {
   font-size: 12px;
 }
 
+
+#right-panel {
+    display: block;
+    margin: 0 auto;
+}
+
+/*
 #right-panel {
     height: 100%;
     float: right;
     width: 390px;
     overflow: auto;
     }
+*/
 
+#map {
+    margin: 10px 10px;
+    height: 350px;
+}
+
+
+/*
 #map {
     margin-right: 400px;
     height: 600px;
     }
-
+*/
 #floating-panel {
     background: #fff;
     padding: 3px;
@@ -582,13 +597,12 @@ select {
     left: 0;
     z-index: 1000;
     display: block;
-    width: 30%;
-    margin: auto;
+    width: 100%;
     }
 
 #start,
 #end {
-    width: 150px;
+    width: 90px;
 }
 
 
