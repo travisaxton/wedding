@@ -123,6 +123,12 @@ $('.closeEvent').click(function() {
     $('#events').hide();
 });
 
+if($(window).width() > 800 ) {
+    $('#map').before($('#right-panel'));
+};
+
+
+
 
 function preload(arrayOfImages) {
     $(arrayOfImages).each(function () {
