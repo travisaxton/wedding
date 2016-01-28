@@ -789,7 +789,18 @@ select {
 }
 
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1600px) {
+    
+    #right-panel {
+        width: 30%;
+        margin: 30px 100px 0;
+    }
+    
+    #map {
+        width: 50%;
+        height: 500px;
+    }
+    
     
     .title {
         font-size: 4.5em;
