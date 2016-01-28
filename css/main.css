@@ -216,18 +216,11 @@ nav {
 
 
 /* ==========================================================================
-   HEADLINE 
+   HEADLINE FONTS
    ========================================================================== */
 
 
-h1,
-h5 {
-    text-align: center;
-    margin-bottom: 0;
-    text-shadow: 2px 1px 0 #222;
-}
-
-h1 {
+.title {
     font-family: "Calligraffitti";
     font-size: 2em;
     color: darkmagenta; /* Main Heading Color Needs Work */
@@ -235,12 +228,27 @@ h1 {
     line-height: 1em;
 }
 
+h1,
+h2,
+h4,
+h5,
+p {
+    color: whitesmoke;
+}
 
+
+h1,
 h5 {
     font-family: "Amatic SC";
+    text-align: center;
+    margin-bottom: 0;
+    text-shadow: 2px 1px 0 #222;
+}
+
+
+.date-place {
     font-size: 1.7em;
     margin-top: 0;
-    color: whitesmoke;
     display: none;
 }
 
@@ -259,11 +267,9 @@ h5 {
     position: fixed;
 }
 
-.info p, 
-.info h1, 
+.info p,  
 .info h2, 
  select {
-    color: whitesmoke;
     text-align: center;
     font-family: "existencelight";
     margin: 1em;
@@ -275,7 +281,6 @@ h5 {
 
 .info h1 {
     font-size: 2em;
-    font-family: "Amatic SC";
     margin: 0.5em;
 }
 
@@ -303,6 +308,7 @@ h5 {
 
 select {
     background-color: black;
+    color: whitesmoke;
     width: 40%;
 }
 
@@ -327,6 +333,7 @@ select {
     margin: 0.5em;
 }
 
+
 /* ==========================================================================
    WEDDING MODAL 
    ========================================================================== */
@@ -343,14 +350,12 @@ select {
 
 .wedding p, 
 .wedding h1 {
-    color: whitesmoke;
     text-align: center;
     margin: 0.5em;
 }
 
 .wedding h1 {
     font-size: 2em;
-    font-family: "Amatic SC";
 }
 
 .wedding p {
@@ -446,7 +451,6 @@ select {
 .bridal h2,
 .bridal h4,
 .bridal p {
-    color: whitesmoke;
     text-align: center;
 }
 
@@ -457,7 +461,6 @@ select {
 }
 
 .bridal h1 {
-    font-family: "Amatic SC";
     font-size: 2em;
     margin: 0.5em;
 }
@@ -490,8 +493,6 @@ select {
 
 .photos h1 {
     font-size: 2em;
-    font-family: "Amatic SC";
-    color: whitesmoke;
     margin: 0.5em;
 }
 
@@ -524,8 +525,6 @@ select {
 
 .events h1 {
     font-size: 2em;
-    font-family: "Amatic SC";
-    color: whitesmoke;
     margin: 0.5em;
 }
 
@@ -629,6 +628,7 @@ select {
 #start,
 #end {
     width: 90px;
+    color: whitesmoke;
 }
 
 
@@ -763,11 +763,11 @@ select {
 
 @media screen and (min-width: 1200px) {
     
-    h1 {
+    .title {
         font-size: 2.5em;
     }
     
-    h5 {
+    .date-place {
         font-size: 1.5em;
         display: block;
     }
@@ -777,12 +777,12 @@ select {
 
 @media screen and (min-width: 1300px) {
     
-    h1 {
+    .title {
         font-size: 4.5em;
         text-shadow: 3px 2px 0 #222;
     }
     
-    h5 {
+    .date-place {
         font-size: 2.5em;
         text-shadow: 3px 2px 0 #222;
     }
