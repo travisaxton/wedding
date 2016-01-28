@@ -323,10 +323,13 @@ select {
 
 .venue-alert-visible {
     display: block;
+    font-size: 1.5em;
 }
 
 .venue-alert-hidden {
     display: none;
+    font-size: 1.5em;
+    margin-top: 0.5em;
 }
 
 #hotel-header {
@@ -742,21 +745,26 @@ select {
         text-align: center;
     }
     
+    #floating-panel {
+        width: 45%;
+    }
+    
     #right-panel {
         height: 100%;
         float: right;
-        width: 300px;
+        width: 45%;
         overflow: auto;
-        margin: 0;
+        margin: 50px 0 0;
     }
     
     #map {
-        margin: 0 400px 0 0;
         height: 400px;
+        width: 50%;
+        margin: 50px 400px 0 0;
     }
     
     .map-container {
-        width: 100%;
+        width: 50%;
     }
 }
 
