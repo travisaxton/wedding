@@ -149,7 +149,7 @@ a {
 .dialog {
     position: relative;
     overflow: auto;
-    height: 73vh;
+    height: 70vh;
 }
 
 
@@ -521,10 +521,6 @@ select {
    EVENTS
    ========================================================================== */
 
-
-#events-dialog {
-    height: 75vh;
-}
 
 .events h1 {
     font-size: 2em;
