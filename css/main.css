@@ -775,10 +775,19 @@ select {
     
     .venue {
         width: 20%;
+        float: left;
+    }
+    
+    #float {
+        text-align: left;
     }
     
     .story-pic {
         width: 30%;
+    }
+    
+    #buffer {
+        margin-top: 1.5em;
     }
     
     .venue-alert-visible {
