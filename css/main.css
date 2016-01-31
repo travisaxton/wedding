@@ -637,6 +637,48 @@ select {
 
 
 /* ==========================================================================
+   OUR STORY MODAL
+   ========================================================================== */
+
+
+.story {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.story:target {
+    display: block;
+    position: fixed;
+}
+
+.story p, 
+.story h1 {
+    text-align: center;
+    margin: 0.5em;
+}
+
+.story h1 {
+    font-size: 2em;
+}
+
+.story p {
+    font-size: 1em;
+    font-family: "Antic Slab";
+    line-height: 1.5;
+    text-align: left;  
+}
+
+.story-pic {
+    float: left;
+    width: 30%;
+    margin: 0 2em 0 0;
+}
+
+.story-container {
+    margin: 3em;
+}
+
+
+/* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
 
@@ -674,7 +716,8 @@ select {
     .bridal,
     .info,
     .photos,
-    .events {
+    .events,
+    .story {
         left: 15%;
         width: 70%;
     }
