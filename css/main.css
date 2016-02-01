@@ -435,6 +435,7 @@ select {
 .bridal-list {
     margin: 3em 0;
     text-align: center;
+    list-style-type: none;
 }
 
 .bridal-images {
