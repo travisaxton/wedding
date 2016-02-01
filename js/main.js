@@ -1,7 +1,53 @@
 
 var map;
 
+function displayMap() {
+    initMap();
+}
+    
+    
+    function initMap() {  
+      var directionsDisplay = new google.maps.DirectionsRenderer;
+      var directionsService = new google.maps.DirectionsService;
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: {lat: 33.82, lng: -78.68},
+        disableDefaultUI: true,
+        zoomControl: true  
+      });
+      directionsDisplay.setMap(map);
+      directionsDisplay.setPanel(document.getElementById('right-panel'));
 
+      //var control = document.getElementById('floating-panel');
+      //control.style.display = 'block';
+      //map.controls[google.maps.ControlPosition.TOP_LEFT].push(control);
+
+      var onChangeHandler = function() {
+        calculateAndDisplayRoute(directionsService, directionsDisplay);
+      };
+      document.getElementById('start').addEventListener('change', onChangeHandler);
+      document.getElementById('end').addEventListener('change', onChangeHandler);  
+    }
+
+
+    function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+      var start = document.getElementById('start').value;
+      var end = document.getElementById('end').value;
+      directionsService.route({
+        origin: start,
+        destination: end,
+        travelMode: google.maps.TravelMode.DRIVING
+      }, function(response, status) {
+        if (status === google.maps.DirectionsStatus.OK) {
+          directionsDisplay.setDirections(response);
+        } else {
+          window.alert('Directions request failed due to ' + status);
+        }
+      });
+    }
+
+    
+/*
 function initMap() {  
   var directionsDisplay = new google.maps.DirectionsRenderer;
   var directionsService = new google.maps.DirectionsService;
@@ -9,7 +55,7 @@ function initMap() {
     zoom: 10,
     center: {lat: 33.82, lng: -78.68},
     disableDefaultUI: true,
-    zoomControl: true  
+    zoomControl: false  
   });
   directionsDisplay.setMap(map);
   directionsDisplay.setPanel(document.getElementById('right-panel'));
@@ -41,12 +87,13 @@ function initMap() {
       });
     }
 }
-
-
-$('#events').click(function() {
+*/
+/*
+$("#events").click(function() {
     initMap();
+    
 })
-
+*/
 
 $('.closebtn').click(function() {
     $('#welcome').hide();
