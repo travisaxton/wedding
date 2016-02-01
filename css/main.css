@@ -537,6 +537,7 @@ select {
 .events:target {
     display: block;
     position: fixed;
+    height: 500px;
 }
 
 .events {

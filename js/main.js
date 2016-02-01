@@ -1,36 +1,29 @@
 
 var map;
 
-function displayMap() {
-    document.getElementById('events').style.display="block";
-    initMap();
-    location.reload(true);
-}
 
+function initMap() {  
+  var directionsDisplay = new google.maps.DirectionsRenderer;
+  var directionsService = new google.maps.DirectionsService;
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 10,
+    center: {lat: 33.82, lng: -78.68},
+    disableDefaultUI: true,
+    zoomControl: true  
+  });
+  directionsDisplay.setMap(map);
+  directionsDisplay.setPanel(document.getElementById('right-panel'));
 
-    function initMap() {
-      $('#welcome').hide();    
-      var directionsDisplay = new google.maps.DirectionsRenderer;
-      var directionsService = new google.maps.DirectionsService;
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 10,
-        center: {lat: 33.82, lng: -78.68},
-        disableDefaultUI: true,
-        zoomControl: true  
-      });
-      directionsDisplay.setMap(map);
-      directionsDisplay.setPanel(document.getElementById('right-panel'));
+  //var control = document.getElementById('floating-panel');
+  //control.style.display = 'block';
+  //map.controls[google.maps.ControlPosition.TOP_LEFT].push(control);
 
-      //var control = document.getElementById('floating-panel');
-      //control.style.display = 'block';
-      //map.controls[google.maps.ControlPosition.TOP_LEFT].push(control);
+  var onChangeHandler = function() {
+    calculateAndDisplayRoute(directionsService, directionsDisplay);
+  };
+  document.getElementById('start').addEventListener('change', onChangeHandler);
+  document.getElementById('end').addEventListener('change', onChangeHandler);
 
-      var onChangeHandler = function() {
-        calculateAndDisplayRoute(directionsService, directionsDisplay);
-      };
-      document.getElementById('start').addEventListener('change', onChangeHandler);
-      document.getElementById('end').addEventListener('change', onChangeHandler);
-    }
 
     function calculateAndDisplayRoute(directionsService, directionsDisplay) {
       var start = document.getElementById('start').value;
@@ -47,23 +40,29 @@ function displayMap() {
         }
       });
     }
+}
 
+
+$('#events').click(function() {
+    initMap();
+})
 
 
 $('.closebtn').click(function() {
-    $('#events').hide();
     $('#welcome').hide();
 });
 
 
 $('.closeEvent').click(function() {
-    $('#events').hide();
     $('#welcome').hide();
 });
+
+
 
 if($(window).width() > 800 ) {
     $('#map').before($('#right-panel'));
 };
+
 
 
 
