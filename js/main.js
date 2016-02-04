@@ -2,14 +2,16 @@
 var map;
 
 function displayMap() {
-    initMap();
+    if (map == undefined) {
+        initMap();
+    }
 }
     
     
     function initMap() {  
       var directionsDisplay = new google.maps.DirectionsRenderer;
       var directionsService = new google.maps.DirectionsService;
-      var map = new google.maps.Map(document.getElementById('map'), {
+      map = new google.maps.Map(document.getElementById('map'), {
         zoom: 10,  
         center: {lat: 33.82, lng: -78.68},
         disableDefaultUI: true,
