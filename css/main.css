@@ -377,6 +377,11 @@ select {
     font-size: 2em;
 }
 
+.wedding .schedule {
+    font-size: 1.8em;
+    margin: 0 0.5em;
+}
+
 .wedding p {
     font-size: 1em;
     font-family: "Antic Slab";
